@@ -1,7 +1,20 @@
 #include<iostream>
 using namespace std;
 
-//Write the function printO() here
+template <class T>
+void printO(T x, T y) {
+    if(x<=0||y<=0){
+    cout<<"Invalid input";
+    }
+
+for(int i=0;i<x;i++){
+    for(int j=0;j<y;j++){
+    cout<<'O';
+    }
+    cout<<endl;
+    
+}
+}
 
 int main(){
 	
